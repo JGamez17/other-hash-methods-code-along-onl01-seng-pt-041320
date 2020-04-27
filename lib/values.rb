@@ -9,8 +9,8 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  groceries.values 
-  groceries.values.flatten
+  groceries.value 
+  groceries.value.flatten
 end
 
 get_the_values(groceries)
